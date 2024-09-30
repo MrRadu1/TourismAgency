@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300&display=swap');
+
+.contact-container {
+  position: absolute;
+  top: 20%;
+  left: 5%;
+}
+
+.box {
+  margin-top: 50px;
+  width: 470px;
+  height: 670px;
+  background-color: #857858;
+  padding: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.box-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+}
+
+.box-text {
+  font-size: 16px;
+  margin-bottom: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.text-fields {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 18px;
+  margin-bottom: 5px;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+textarea {
+  padding: 10px;
+  background-color: #857858;
+  margin-bottom: 15px;
+  border: 1.5px solid #000;
+  border-radius: 5px;
+  vertical-align: top;
+  resize: vertical;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+}
+
+
+.input-register {
+  padding: 10px;
+  background-color: #857858;
+  margin-bottom: 15px;
+  border: 1.5px solid #000;
+  border-radius: 5px;
+  vertical-align: top;
+  resize: vertical;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+}
+
+.submit-button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #45a049;
+}
+
+
+.background2 {
+  background-image: url('./images/contact1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 120vh;
+  position: relative;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  z-index: -1
+}

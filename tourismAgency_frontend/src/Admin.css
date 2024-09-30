@@ -1,0 +1,57 @@
+.form-container {
+  padding: 20px;
+  border-radius: 20px;
+  width: 60%;
+  margin-top: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #857858;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset,
+    0px 4px 4px 0px rgba(0, 0, 0, 0.25),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.25),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.25),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset,
+    0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset,
+    0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset,
+    0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.column {
+  flex: 1;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.input-admin {
+  padding: 10px;
+  background-color: #857858;
+  margin-bottom: 15px;
+  border: 1.5px solid #000;
+  border-radius: 5px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+}
+
+.submit-button2 {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  width: 90%;
+  margin-top: 12%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-button2:hover {
+  background-color: #45a049;
+}

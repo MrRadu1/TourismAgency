@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Volkhov&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300&display=swap');
+
+.background {
+  background-image: url('./images/backgro.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+}
+
+.content-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  position: relative;
+  color: #24231e;
+  font: 700 50px Volkhov, sans-serif;
+  text-align: center;
+  top: 20%;
+  padding-bottom: 20px;
+}
+
+.title2 {
+  margin: 69px 0 3px;
+  position: relative;
+  color: #24231e;
+  font: italic 300 35px 'Red Hat Display', -apple-system, Roboto, Helvetica,
+    sans-serif;
+  text-align: center;
+  top: 15%;
+  padding-left: 100px;
+  padding-right: 100px;
+}

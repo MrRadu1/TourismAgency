@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300&display=swap');
+
+.x-cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  width: 28%;
+  background-color: #857858;
+  border-radius: 20px;
+  border: 1.5px solid #000;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100px;
+
+}
+
+.vertical-line {
+  border-left: 1px solid black;
+  height: 50px;
+
+  margin: 10px 10px;
+}
+
+.left-text,
+.right-text {
+  font-size: 20px;
+  font-family: 'Red Hat Display', sans-serif;
+  margin: auto;
+  font-weight: 600;
+}
+
+.rectangle-container2 {
+  width: 40%;
+  position: relative;
+}
+
+.horizontal-line2 {
+  border-bottom: 1px solid black;
+}
+
+.date-input {
+  position: relative;
+  left: 35%;
+  transform: translate(-50%, -10%);
+  background-color: #857858;
+  color: #000;
+  font-size: 15px;
+  border: #000;
+  font-weight: 600;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+.date-input::before {
+  content: 'Check In';
+  color: inherit;
+  opacity: 0.7;
+}
+
+.text1 {
+  margin-top: 2%;
+  font: 700 50px Volkhov, sans-serif;
+  color: #14183E;
+  text-align: center;
+}
+
+.card-des {
+  border-radius: 0px 0px 31.923px 31.923px;
+  background-color: var(--white, #fff);
+  width: 100%;
+  flex-direction: column;
+  color: var(--TEXT-CLR, #5e6282);
+  padding-top: 30px;
+  font-family: Poppins, sans-serif;
+  padding-bottom: 20px;
+  box-shadow:
+    0 4px 8px rgba(0, 0, 0, 0.5),
+    0 8px 16px rgba(0, 0, 0, 0.5);
+  margin-bottom: 10%;
+}
+
+.location {
+  margin-left: 5%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  margin-right: 5%;
+}
+
+.dates {
+  margin-left: 5%;
+  display: flex;
+  margin-top: 20px;
+  gap: 5px;
+  font-size: 18px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+  width: 20%;
+  height: 50%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin-top: 5%;
+  box-shadow:
+    0 4px 8px rgba(0, 0, 0, 0.5),
+    0 8px 16px rgba(0, 0, 0, 0.5);
+}
+
+.card-des:hover {
+  box-shadow:
+    0 4px 8px rgba(0, 0, 0, 1.1),
+    0 8px 16px rgba(0, 0, 0, 1.1);
+}
+
+.card:hover {
+  box-shadow:
+    0 4px 8px rgba(0, 0, 0, 1.1),
+    0 8px 16px rgba(0, 0, 0, 1.1);
+}
+
+.imageStyle {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  object-fit: cover;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: -8%;
+}
+
+.text2 {
+  margin-top: 2%;
+  font: 700 50px Volkhov, sans-serif;
+  color: #FE5050;
+  text-align: center;
+  position: relative;
+  text-shadow:
+    0px 3px 18px rgba(0, 0, 0, 3.5),
+    0px 4px 18px rgba(0, 0, 0, 3.5),
+    0px 4px 18px rgba(0, 0, 0, 3.5),
+    0px 4px 18px rgba(0, 0, 0, 3.5);
+}
+
+.search-card {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+  width: 20%;
+  margin-bottom: 10%;
+  height: 350px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin-top: 5%;
+  box-shadow:
+    0 4px 8px rgba(0, 0, 0, 0.5),
+    0 8px 16px rgba(0, 0, 0, 0.5);
+
+}
+
+.search-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-right: 10%;
+  margin-bottom: -8%;
+}
+
+.search-card:hover {
+  box-shadow:
+    0 4px 8px rgba(0, 0, 0, 1.1),
+    0 8px 16px rgba(0, 0, 0, 1.1);
+}

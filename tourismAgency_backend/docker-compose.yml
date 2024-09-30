@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  dawdb:
+    image: postgres:latest
+    container_name: dawdb
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: dawdb
+    ports:
+      - "1234:5432"
+

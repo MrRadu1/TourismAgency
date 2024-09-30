@@ -1,0 +1,87 @@
+.search-bar {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+  width: 20%;
+}
+
+.search-bar input {
+  padding: 8px;
+  margin-right: 5px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  width: 90%;
+}
+
+.gap {
+  flex: 1;
+}
+
+.black-box2 {
+  cursor: pointer;
+  background-color: #353431;
+  border-radius: 20px;
+  border: 1.5px solid #000;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset,
+    0px 4px 4px 0px rgba(0, 0, 0, 0.25),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.25),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.25),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset,
+    0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset,
+    0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset,
+    0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  padding: 15px 20px;
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.black-box2:hover {
+  background-color: #45a049;
+}
+
+.arrow {
+  transform: translate(-40px, 2px);
+  height: 46px;
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 35px;
+  font-weight: 300;
+  font-style: italic;
+  color: black;
+}
+
+.black-box {
+  background-color: #353431;
+  border-radius: 20px;
+  border: 1.5px solid #000;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset,
+    0px 4px 4px 0px rgba(0, 0, 0, 0.25),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.25),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.25),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset,
+    0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset,
+    0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset,
+    0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  padding: 10px 10px;
+  position: relative;
+  top: 25px;
+}
+
+.navigation-bar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.menu-item {
+  width: 180px;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+}

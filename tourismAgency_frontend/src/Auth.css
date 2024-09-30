@@ -1,0 +1,11 @@
+.abox {
+    margin-top: 50px;
+    width: 470px;
+    height: 270px;
+    background-color: #857858;
+    padding: 20px;
+    border-radius: 10px ;
+    overflow: hidden;
+    margin-left: auto; 
+    margin-right: auto;
+  }
